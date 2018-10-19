@@ -21,8 +21,11 @@ _by Aaliyah Sealey_
 
 ---
 ## Repository Setup
-1.
-2.
+1. _Git init_ = is used to initialize git in our repository once in the beginning. Make sure to cd into your repo and not to initilize in the workspace because it will create a hidden file. If you do use the comman rm -rf .git to delete the hidden file if you initiliza in the workspcae.  
+
+2. After you _initilize_ your repo you want to add it to git by doing the comman git add . to add your current directory but not the ones that have been renmaed or moved. To add those files you want to do the command git add --all    
+3. Then you want to commit a message by using commit -m "your message" that is heplful for you to look back on your code and find out what you did after you added and pushed your command to github.
+4. The remote is when you are setting up a conn
 
 
 ---
