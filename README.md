@@ -50,11 +50,13 @@ _by Aaliyah Sealey_
 ## Rolling Back Changes
 1. undo add = to undo what you just put on the stage in git you use the command ```git reset filename.txt``` which will unstage your file 
 2. undo commit = to undo a commit you want to use ```git reset --soft HEAD~1 ``` which is different from ``` git reset --hard HEAD ~1 ``` because the second one will permanently lose your changes while the first one I mentioned wont cause you to lose all of your changes.  
-3. undo push =
-4. undo edit 
-5. 
+3. undo push = to undo a push use the command ```git revert <SHA>``` which will  create the inverse of what you just pushed 
+4. undo edit = ```git checkout -- < filename >``` will undo any edits made but won't erase your other work it will still be saved just not used 
+
 
 
 ---
 ## Extra Information That's Helpful To Know
-1. fork and ```git clone``` 
+1. fork = when you want to use someone elses code/program to make it your own you can press the fork option on github
+2. the fork option essentially creates the same repo but under your account and then you want to press "Clone or download" and put it on SSH and copy the link
+2. ```git clone <URL> ``` is used to input the repoyou forked into C9.io by putting the proper syntax of git clone and then the link you copied in the previous step 
