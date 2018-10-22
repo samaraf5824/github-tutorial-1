@@ -41,9 +41,9 @@ _by Aaliyah Sealey_
 ## Workflow & Commands
 1. ```git status``` = this command is used to check the status of your working directory to make sure that all your files have been staged and pushed to github 
    * if the file is in red your file hasn't been staged / pushed to git but if it's green or says working directory clean nothing to push then eveyrhting has been saved and commited 
-2. As said before when you add you are putting something on the stage and when you commit a message your writing a message on what action you just took o what type of edits or code you wrote
-3. Finally after you've added and commited your message you do git push 
-4. ```Git push``` is what you use to push your code to github to be saved or for it to be taken a "picture" of but once in the beginning you want to do ```git push -u origin matser``` so it knows where to push to and then you can type in git push the other times
+2.  As said before when you add you are putting something on the stage and when you commit a message your writing a message on what action you just took o what type of edits or code you wrote
+3.  Finally after you've added and commited your message you do git push 
+4.  ```Git push``` is what you use to push your code to github to be saved or for it to be taken a "picture" of but once in the beginning you want to do ```git push -u origin matser``` so it knows where to push to and then you can type in git push the other times
 
 
 ---
@@ -57,3 +57,4 @@ _by Aaliyah Sealey_
 
 ---
 ## Extra Information That's Helpful To Know
+1. fork and ```git clone``` 
